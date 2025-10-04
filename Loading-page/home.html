@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkyBrand Tech</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="wrap">
+    <!-- Top -->
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo">SB</div>
+        <div>
+          <h1>SkyBrand Tech</h1>
+          <p>Digital products · Web & Mobile · Design</p>
+          <p><strong>Owner:</strong> Sarthak Yaduvanshi</p>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <div class="phone-pill">📞 +91 72758 88576</div>
+        <div class="location">Jaunpur, India</div>
+      </div>
+    </div>
+
+    <!-- Nav -->
+    <nav>
+      <div class="nav-inner">
+        <div class="menu">
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Booking">Booking</a>
+          <a href="#Help">Help</a>
+          <a href="#Address">Address</a>
+        </div>
+        <button class="hambtn" id="hambtn">☰</button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Booking">Booking</a>
+        <a href="#Help">Help</a>
+        <a href="#Address">Address</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="Home" class="hero card">
+      <div class="hero-left">
+        <h2>We build beautiful & fast web experiences.</h2>
+        <p>SkyBrand Tech — responsive websites and digital design crafted for performance.</p>
+        <div class="hero-buttons">
+          <a class="btn" href="#Booking">Book Now</a>
+          <a class="btn ghost" href="#About">Learn More</a>
+        </div>
+      </div>
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="Hero Image" class="hero-img">
+    </section>
+
+    <!-- About -->
+    <section id="About" class="card">
+      <h3>About</h3>
+      <p>SkyBrand Tech crafts modern websites and apps. We focus on responsive, fast-loading, and elegant digital experiences that look perfect on any device.</p>
+    </section>
+
+    <!-- Services -->
+    <section class="card">
+      <h3>Services</h3>
+      <div class="services">
+        <div class="service">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400" alt="">
+          <div>
+            <h4>Web Development</h4>
+            <p>Modern and responsive websites.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400" alt="">
+          <div>
+            <h4>UI & Design</h4>
+            <p>Design systems and branding.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400" alt="">
+          <div>
+            <h4>Consulting</h4>
+            <p>Performance & strategy guidance.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400" alt="">
+          <div>
+            <h4>Support</h4>
+            <p>Maintenance and updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="Booking" class="card">
+      <h3>Booking</h3>
+      <form id="bookingForm">
+        <label>Name</label>
+        <input type="text" id="name" required>
+        <label>Email</label>
+        <input type="email" id="email" required>
+        <label>Phone</label>
+        <input type="tel" id="phone" required>
+        <label>Message</label>
+        <textarea id="message" placeholder="Your message..."></textarea>
+        <div class="form-buttons">
+          <button type="submit" class="btn">Submit</button>
+          <button type="reset" class="btn ghost" id="resetBtn">Reset</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Help Contact -->
+    <section id="Help" class="card">
+      <h3>Help & Contact</h3>
+      <p><strong>Phone:</strong> <a href="tel:+917275888576">+91 72758 88576</a></p>
+      <p><strong>Fecebook:</strong> <a href="https://www.facebook.com/share/1DwxfNXbjD/">SkyBrandTech</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/sky.brand_tech?igsh=MTUxNnVvaHUzdDF6cQ==">@SkyBrandTech</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://whatsapp.com/channel/0029VbBuMwTJZg4CejxOhl1s">SkyBrand Tech</a></p>
+      <p><strong>linkedin:</strong> <a href="https://www.linkedin.com/company/109052165/admin/feed/following/">SkyBrand Tech</a></p>
+    
+    </section>
+
+    <!-- Address -->
+    <section id="Address" class="card">
+      <h3>Address</h3>
+      <p><strong>Location:</strong> TD College Road Line Bazar, Jaunpur</p>
+      <p><strong>Timing:</strong> Mon–Sat · 9:00 — 19:00</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; <span id="year"></span> SkyBrand Tech. All Rights Reserved.
+    </footer>
+  </div>
+
+  <div id="toast" class="toast">Message sent ✓</div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
